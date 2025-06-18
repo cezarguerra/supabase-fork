@@ -86,5 +86,9 @@ redirect_uri = ""
 # or any other third-party OIDC providers.
 url = ""
 
+[auth.third_party.clerk]
+enabled = true
+domain = "prompt-rat-32.accounts.dev"
+
 [functions.search-embeddings]
 verify_jwt = false
