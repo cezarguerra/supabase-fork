@@ -2,7 +2,7 @@
 
 ## docker build -t supabase-postgres-ptbr:latest .
 
-FROM supabase/postgres:15.8.1.060
+FROM supabase/postgres:15.8.1.085
 
 USER root
 RUN apt-get update && \
